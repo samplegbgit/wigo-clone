@@ -20,3 +20,8 @@ findBtn.addEventListener("click", () => {
     `;
   });
 });
+rideList.addEventListener("click", (e) => {
+  if (e.target.textContent === "Book Now") {
+    alert("✅ Ride booked successfully!");
+  }
+});

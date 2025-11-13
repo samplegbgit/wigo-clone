@@ -10,3 +10,8 @@ Next: Show available rides dynamically.
 ✅ Added dynamic ride list display  
 ✅ "Find Ride" button loads available rides  
 Next: Add booking confirmation popup.
+
+### 📅 Day 3
+✅ Added booking confirmation popup  
+✅ Improved button interactions  
+Next: Add ride filtering & estimated fare calculation.
