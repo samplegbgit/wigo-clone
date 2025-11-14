@@ -25,3 +25,20 @@ rideList.addEventListener("click", (e) => {
     alert("✅ Ride booked successfully!");
   }
 });
+const filterSelect = document.getElementById("filter");
+
+filterSelect.addEventListener("change", () => {
+  const val = filterSelect.value;
+  const filtered = val === "all" ? rides : rides.filter(r => r.name === val);
+  rideList.innerHTML = "<h3>Available Rides</h3>";
+  filtered.forEach(r => {
+    rideList.innerHTML += `
+      <div class="card">
+        <h4>${r.name}</h4>
+        <p>💰 ₹${r.price}</p>
+        <p>⏰ ${r.time}</p>
+        <button>Book Now</button>
+      </div>
+    `;
+  });
+});

@@ -15,3 +15,8 @@ Next: Add booking confirmation popup.
 ✅ Added booking confirmation popup  
 ✅ Improved button interactions  
 Next: Add ride filtering & estimated fare calculation.
+
+### 📅 Day 4
+✅ Added filter by car type  
+✅ Added fare display and refinement  
+Next: Add dark mode & responsive layout.
