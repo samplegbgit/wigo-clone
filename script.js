@@ -42,3 +42,13 @@ filterSelect.addEventListener("change", () => {
     `;
   });
 });
+const darkBtn = document.createElement("button");
+darkBtn.textContent = "🌙 Dark Mode";
+darkBtn.style.position = "fixed";
+darkBtn.style.bottom = "20px";
+darkBtn.style.right = "20px";
+document.body.appendChild(darkBtn);
+
+darkBtn.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+});

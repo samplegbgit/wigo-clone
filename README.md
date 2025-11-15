@@ -20,3 +20,8 @@ Next: Add ride filtering & estimated fare calculation.
 ✅ Added filter by car type  
 ✅ Added fare display and refinement  
 Next: Add dark mode & responsive layout.
+
+### 📅 Day 5
+✅ Added dark mode toggle  
+✅ Made layout fully responsive  
+🎉 Project completed successfully!

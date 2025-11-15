@@ -58,3 +58,23 @@ button {
 button:hover {
   background: #005ecc;
 }
+.dark {
+  background: #121212;
+  color: #eee;
+}
+
+.dark .card {
+  background: #1e1e1e;
+  color: #eee;
+}
+
+@media (max-width: 600px) {
+  .ride-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header {
+    flex-direction: column;
+  }
+}
